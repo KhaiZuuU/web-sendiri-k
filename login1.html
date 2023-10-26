@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="kata.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+            background: url(ini3.jpg);
+            background-size: cover;
+        }
+        
+        h1 {
+            color: #333;
+        }
+        
+        #login-form {
+            width: 300px;
+            position: absolute;
+            left: 41.2%;
+            top: 30%;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #a30a0a;
+            border-radius: 5px;
+            background-color: #e9fae9;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        
+        input[type="text"],
+        input[type="password"]{
+            width: 80%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #df2424;
+            border-radius: 3px;
+        }
+        
+        input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        
+        input[type="submit"]:hover {
+            background-color: #03011b;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="log">Silakan Login wajib isi !<br></h1>
+
+    <div id="login-form">
+        <form action="file:///C:/Users/faisz/Downloads/doc%20ppt/web%20fais/index.html" method="GET">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <input type="submit" value="Login">
+        </form>
+    </div>
+</body>
+
+</html>
